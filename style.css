@@ -1,22 +1,27 @@
-#Navigation_Bar{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    margin: 0;
-    padding: 0;
+#Navigation_Bar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
 }
 #Navigation_Bar li {
-    float: left;
+  float: left;
 }
-#Navigation_Bar li a{
-    display: block;
-    padding: 10px;
-    margin-right: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+#Navigation_Bar a {
+  display: block;
+  padding: 10px;
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
-#Navigation_Bar li a:hover {color: yellow}
-.active{
-    background-color: #62f200;
+#Navigation_Bar a:hover {
+  color: yellow;
 }
+
+.active {
+  background-color: #62f200;
+}
+
+/*# sourceMappingURL=style.css.map */
